@@ -23,7 +23,7 @@ public class Task_4 {
             if (list.get(i).getProduct()<list.get(i-1).getProduct()){
                 temp=list.indexOf(i);
 
-                list.get(temp)=list.get(i).setID();
+//                list.get(temp)=list.get(i).setID();
             }
 
         }
